@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --c-primary: #683808;
+    --c-secondary: #AF7514;
+    --c-support: #B89150;
+    --c-empz: #08C9B9;
+    --c-empz-support: #B01C1C;
+    --c-light: #FFFFFF;
+    --c-light-gray: #F4F4F4;
+    --c-gray: #E0E0E0;
+    --c-dark-gray: #787878;
+    --c-dark: #000000;
+
+    --fz-xl: 48px;
+    --fx-lg: 36px;
+    --fz-m: 20px;
+    --fz-sm: 16px;
+    --fz-xs: 12px;
+
+    --unit: 1rem;
+}
