@@ -4,3 +4,6 @@ package-lock.json
 
 # IDE
 /.idea
+
+# bundle
+*.bundle.js
