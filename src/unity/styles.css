@@ -22,3 +22,27 @@
     background-color: transparent;
     color: var(--c-primary);
 }
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.default-button {
+    min-width: calc(4 * var(--unit));
+    padding: calc(0.5 * var(--unit)), 0;
+    border-radius: var(--unit);
+    background-color: var(--empz);
+    color: var(--c-light);
+}
+
+.soft-button {
+    min-width: calc(4 * var(--unit));
+    background-color: var(--empz);
+    color: var(--c-light);
+}
+
+.icon-button {
+    border-radius: 100%;
+}
