@@ -38,7 +38,9 @@ const config = {
             loader: 'css-loader',
             options: {
               url: false,
-              modules: true,
+              modules: {
+                localIdentName: '[path][name]__[local]', // Default: '[hash:base64]'
+              },
             },
           },
         ],
