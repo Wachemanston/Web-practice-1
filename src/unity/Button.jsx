@@ -5,19 +5,19 @@ import { TransparentIcon } from './Icon';
 
 const DefaultButton = ({ children }) => {
   return (
-    <div className={`${styles['icon-container']} ${styles['default-icon']}`}>{children}</div>
+    <div className={`${styles['button-container']} ${styles['default-button']}`}>{children}</div>
   );
 };
 
 export const SoftButton = ({ children }) => {
   return (
-    <div className={`${styles['icon-container']} ${styles['icon-button']} ${styles['soft-button']}`}>{children}</div>
+    <div className={`${styles['button-container']} ${styles['soft-button']}`}>{children}</div>
   );
 };
 
 export const IconButton = ({ iconName }) => {
   return (
-    <div className={`${styles['icon-container']} ${styles['icon-button']}`}>
+    <div className={`${styles['button-container']} ${styles['icon-button']}`}>
       <TransparentIcon name={iconName} />
     </div>
   );

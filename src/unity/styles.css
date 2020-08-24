@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s all;
 }
 
 .default-icon {
@@ -23,23 +24,36 @@
     color: var(--c-primary);
 }
 
+.soft-button:hover .transparent-icon {
+    color: var(--c-light);
+}
+
 .button-container {
+    min-width: calc(4 * var(--unit));
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: calc(0.5 * var(--unit)), 0;
+    margin: calc(0.25 * var(--unit));
+    border-radius: var(--unit);
+    transition: .3s all;
+    cursor: pointer;
 }
 
 .default-button {
-    min-width: calc(4 * var(--unit));
-    padding: calc(0.5 * var(--unit)), 0;
-    border-radius: var(--unit);
     background-color: var(--empz);
     color: var(--c-light);
 }
 
 .soft-button {
-    min-width: calc(4 * var(--unit));
-    background-color: var(--empz);
+    min-width: calc(7 * var(--unit));
+    border: 1px solid;
+    background-color: var(--c-light);
+    color: var(--c-primary);
+}
+
+.soft-button:hover {
+    background-color: var(--c-primary);
     color: var(--c-light);
 }
 
