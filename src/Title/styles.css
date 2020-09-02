@@ -1,0 +1,15 @@
+@import '../../dist/styles.css';
+
+.h1 {
+    margin-bottom: var(--unit);
+    line-height: 200%;
+    font-weight: 700;
+}
+
+.h2 {
+    font-weight: 700;
+}
+
+.h3 {
+    font-weight: 600;
+}
