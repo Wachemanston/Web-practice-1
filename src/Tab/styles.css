@@ -1,0 +1,49 @@
+@import '../../dist/styles.css';
+
+.container {
+    min-width: calc(2 * var(--unit));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 calc(1.5 * var(--unit));
+    cursor: pointer;
+}
+
+.container .icon {
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.container:hover .icon {
+    opacity: 1;
+}
+
+.text {
+    color: var(--c-dark-gray);
+}
+
+.container:hover .text {
+    color: var(--c-primary);
+}
+
+.bar {
+    width: 1px;
+    height: calc(1.5 * var(--unit));
+    position: relative;
+}
+
+.bar:after {
+    content: '';
+    width: 100%;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--c-primary);
+    transition: .3s all;
+}
+
+.container:hover .bar:after {
+    height: 100%;
+}
