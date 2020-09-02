@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Section from './unity/Section';
+import Slider from './Slider';
 
 const Main = () => {
   return (
-    <div>
+    <div style={{ height: 'inherit' }}>
       <Navbar />
-      <Section />
+      <Section>
+        <Slider />
+      </Section>
     </div>
   );
 };
