@@ -1,6 +1,7 @@
 .container {
     height: 40%;
     position: relative;
+    overflow: hidden;
 }
 
 .sub-container {
@@ -9,7 +10,7 @@
     top: 0;
     left: 0;
     white-space: nowrap;
-    overflow: hidden;
+    transition: all .3s;
 }
 
 .sub-container img {
@@ -20,12 +21,18 @@
 }
 
 .chevron {
-    width: calc(3 * var(--unit));
-    height: calc(3 * var(--unit));
+    width: calc(2.5 * var(--unit));
+    height: calc(2.5 * var(--unit));
     position: absolute;
     left:  calc(2 * var(--unit));
     top: 50%;
-    background-color: var(--c-light-gray);
+    color: var(--c-light-gray);
+    background-color: rgba(189, 189, 189, 0.5);
     border-radius: 100%;
     transform: translateY(-50%);
+}
+
+.right-chevron {
+    left: auto;
+    right: calc(2 * var(--unit));
 }
