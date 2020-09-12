@@ -1,0 +1,33 @@
+.half-img {
+    width: 45%;
+}
+
+.row-img-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: calc(2 * var(--unit));
+}
+
+.half-paragraph {
+    width: 40%;
+    text-align: center;
+    margin-bottom: calc(2 * var(--unit));
+    font-size: var(--fz-m);
+}
+
+.row-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: calc(2 * var(--unit));
+}
+
+.empz-btn {
+    width: 100%;
+    line-height: 100%;
+    padding: 1rem;
+    font-size: var(--fz-m);
+}

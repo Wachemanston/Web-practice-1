@@ -1,5 +1,5 @@
 .container {
-    height: 40%;
+    height: calc(25 * var(--unit)); /* TODO: use relative height instead of absolute height */
     position: relative;
     overflow: hidden;
 }
