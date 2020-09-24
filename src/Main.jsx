@@ -13,8 +13,6 @@ const Main = () => {
       <Navbar />
       <Section>
         <Slider />
-      </Section>
-      <Section>
         <H1 text="Lorem Title" />
         <div className={styles['row-img-container']}>
           <img className={styles['half-img']} src="https://images.unsplash.com/photo-1599793072640-d8365956dc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80" alt="" />
