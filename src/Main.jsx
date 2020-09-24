@@ -3,8 +3,9 @@ import styles from './styles.css';
 import Navbar from './Navbar';
 import Section from './unity/Section';
 import Slider from './Slider';
-import { H1 } from './Title';
+import { H1, H3 } from './Title';
 import DefaultButton from './unity/Button';
+import Card from './Card';
 
 const Main = () => {
   return (
@@ -38,6 +39,14 @@ const Main = () => {
               <DefaultButton><span className={styles['empz-btn']}>Lorem 2</span></DefaultButton>
             </div>
           </div>
+        </div>
+      </Section>
+      <Section>
+        <H3 text="Lorem title 3" />
+        <div className={styles['row-container']}>
+          <Card text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eaque et exercitationem expedita, illum iusto" imgPath="https://images.unsplash.com/photo-1599793072640-d8365956dc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80" />
+          <Card text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eaque et exercitationem expedita, illum iusto" imgPath="https://images.unsplash.com/photo-1599793072640-d8365956dc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80" />
+          <Card text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eaque et exercitationem expedita, illum iusto" imgPath="https://images.unsplash.com/photo-1599793072640-d8365956dc31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80" />
         </div>
       </Section>
     </div>

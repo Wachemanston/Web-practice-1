@@ -1,0 +1,19 @@
+.container {
+    max-width: 33%;
+    min-height: calc(30 * var(--unit));
+    display: block;
+    padding: calc(0.5 * var(--unit)) var(--unit);
+}
+
+.img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-bottom: var(--unit);
+}
+
+p {
+    text-align: justify;
+    line-height: 1.75;
+    font-size: var(--fz-m);
+}
