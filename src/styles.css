@@ -17,6 +17,13 @@
     font-size: var(--fz-m);
 }
 
+.full-paragraph {
+    width: 100%;
+    text-align: center;
+    margin-bottom: calc(2 * var(--unit));
+    font-size: var(--fz-m);
+}
+
 .row-btn-container {
     width: 100%;
     display: flex;
@@ -30,4 +37,9 @@
     line-height: 100%;
     padding: 1rem;
     font-size: var(--fz-m);
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
 }
